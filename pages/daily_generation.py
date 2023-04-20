@@ -1,16 +1,12 @@
 from __future__ import print_function
-import os
-import sys
 import pandas as pd
 import numpy as np
-import seaborn as sns
-import datetime
 import streamlit as st
 import numpy as np 
-from keras.layers import Dense, Input, Dropout
+
 from keras.models import Model
 from keras.models import load_model
-from keras.callbacks import ModelCheckpoint
+
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 st.subheader('Daily generation Forecasting')
