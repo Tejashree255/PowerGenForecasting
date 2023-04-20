@@ -3,8 +3,6 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import numpy as np 
-
-from keras.models import Model
 from keras.models import load_model
 
 with open('style.css') as f:
