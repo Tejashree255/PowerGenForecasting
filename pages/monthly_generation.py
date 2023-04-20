@@ -1,13 +1,13 @@
 
 import streamlit as st
 import pandas as pd
-import datetime as dt
+
 from datetime import timedelta
-import streamlit.components.v1 as components
-import matplotlib.pyplot as plt 
+
+
 from pmdarima.arima import auto_arima
-import numpy as np
-import matplotlib.dates as mdates
+
+
 import csv
 from PIL import Image
 with open('style.css') as f:
